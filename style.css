@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  max-width: 100vw;
+  margin: 0.5rem auto;
+}
+.start-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  align-self: flex-start;
+  width: 100%;
+  padding: 0 0.9rem;
+}
+.end-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  align-self: flex-end;
+  padding: 0 0.9rem;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 2.4rem;
+  gap: 1rem;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  width: 100%;
+  transition: all 0.3s;
+}
+.search-box:hover {
+  background-color: #ebebeb;
+}
+.music-icon,
+.dots-icon,
+.left-icon,
+.right-icon,
+.refresh-icon,
+.share-icon,
+.star-icon,
+.app-list-icon,
+.reading-list-icon,
+.clock-icon,
+.mic-icon {
+  transition: all 0.3s;
+  stroke: #918989b7;
+  width: 2.4rem;
+}
+.dots-icon,
+.refresh-icon,
+.star-icon,
+.reading-list-icon,
+.app-list-icon,
+.clock-icon,
+.mic-icon {
+  stroke: #555555e7;
+  /* margin: 0 0.6rem; */
+}
+.app-list-icon,
+.reading-list-icon {
+  width: 2rem;
+}
+.puzzel-icon {
+  transition: all 0.3s;
+  fill: #555555e7;
+  width: 2.4rem;
+}
+
+.owner-img,
+.google-icon,
+.clock-icon,
+.mic-icon {
+  display: inline-block;
+}
+.clock-icon:hover,
+.mic-icon:hover {
+  cursor: pointer;
+}
+.google-icon {
+  height: 2.4rem;
+  width: auto;
+  border-radius: 50%;
+}
+.owner-img {
+  border-radius: 50%;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.url-link:link,
+.url-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #777;
+}
+.url-link:hover,
+.url-link:active {
+  cursor: pointer;
+}
+.search-url {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.header-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(179, 176, 176, 0.5);
+  /* padding: 1.2rem 0; */
+}
+.apps,
+.reading-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  margin: 0.6rem 0.6rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.apps:hover,
+.reading-list:hover {
+  background-color: #e6e6e6;
+}
+.app-link:link,
+.app-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+.app-link:hover,
+.app-link:active {
+  background-color: #e6e6e6;
+}
+
+.reading-link:link,
+.reading-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #333;
+}
+.reading-link:hover,
+.reading-link:active {
+  background-color: #e6e6e6;
+}
+.additional-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.6rem;
+  margin: 2.4rem;
+}
+.gmail-link:link,
+.gmail-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+.gmail-link:hover,
+.gmail-link:active {
+  /* background-color: #e6e6e6; */
+  text-decoration: underline;
+}
+.images-link:link,
+.images-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+.images-link:hover,
+.images-link:active {
+  /* background-color: #e6e6e6; */
+  text-decoration: underline;
+}
+
+.maintext {
+  position: absolute;
+  display: flex;
+  font-size: 9.8rem;
+  font-weight: 500;
+  letter-spacing: -0.4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  display: inline-block;
+}
+.text1,
+.text4 {
+  color: #0096c7;
+}
+.text2,
+.text6 {
+  color: #f94144;
+}
+.text3 {
+  color: #fca311;
+}
+.text5 {
+  color: #55a630;
+}
+
+.main-search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 12px rgba(85, 85, 85, 0.253);
+  padding: 0.9rem 1.8rem;
+  border-radius: 30px;
+  width: 50rem;
+}
